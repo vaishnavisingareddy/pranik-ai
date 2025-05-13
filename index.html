@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,20 +6,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pranik AI</title>
 
-  <!-- Tailwind CSS for page3 and page4 -->
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;600&family=IBM+Plex+Sans&display=swap" rel="stylesheet">
 
-  <!-- Custom CSS for page2 -->
   <style>
     body {
       margin: 0;
       font-family: 'Lato', sans-serif;
     }
 
-    /* PAGE 2 STYLES */
     .page2-section {
       background-image: url('page2.png');
       background-size: cover;
@@ -85,6 +83,8 @@
       font-weight: bold;
       cursor: pointer;
       transition: background 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
     }
 
     .primary-btn:hover {
@@ -116,114 +116,94 @@
 </head>
 <body>
 
-  <!-- Page 2 Section -->
-  <section class="page2-section">
-    <div class="logo-container">
-      <img src="logo.png" alt="Pranik AI Logo" class="logo-img">
-      <span class="logo-text">Pranik AI</span>
-    </div>
+<!-- Page 2 Section -->
+<section class="page2-section">
+  <div class="logo-container">
+    <img src="logo.png" alt="Pranik AI company logo" class="logo-img">
+    <span class="logo-text">Pranik AI</span>
+  </div>
 
-    <div class="overlay">
-      <h1 class="main-heading">Democratizing Quality Healthcare</h1>
-      <div class="frame-2">
-        <span>Accessible</span>
-        <span class="dot"></span>
-        <span>Inclusive</span>
-        <span class="dot"></span>
-        <span>Anytime</span>
-        <span class="dot"></span>
-        <span>Anywhere</span>
-      </div>
-      <p class="subtext">AI-powered healthcare advice</p>
-      <button class="primary-btn">Join the team</button>
+  <div class="overlay">
+    <h1 class="main-heading">Democratizing Quality Healthcare</h1>
+    <div class="frame-2">
+      <span>Accessible</span>
+      <span class="dot"></span>
+      <span>Inclusive</span>
+      <span class="dot"></span>
+      <span>Anytime</span>
+      <span class="dot"></span>
+      <span>Anywhere</span>
     </div>
-  </section>
+    <p class="subtext">AI-powered healthcare advice</p>
+    <a href="#apply-section" class="primary-btn">Join the team</a>
+  </div>
+</section>
 
-  <!-- Page 3 Section -->
-  <section class="px-6 py-12 flex flex-col items-center gap-12 bg-white">
-    <div class="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-8">
-      <div class="max-w-[497px]">
-        <h1 class="text-[#46B3B9] text-[40px] md:text-[48px] font-normal ibm leading-snug">
-          A Health<br />Companion for<br />Everyone
-        </h1>
-        <p class="text-[#1E1E1E] mt-4 text-[16px] md:text-[18px] leading-[28px]">
-          At Pranik AI, we’re building an intelligent, always-available healthcare assistant —
-          a bridge between modern medical knowledge and the millions who lack access to timely care.
-        </p>
+<!-- Page 3 Section -->
+<section class="px-6 py-12 flex flex-col items-center gap-12 bg-white">
+  <div class="max-w-7xl w-full flex flex-col md:flex-row items-center justify-between gap-8">
+    <div class="max-w-[497px]">
+      <h1 class="text-[#46B3B9] text-[40px] md:text-[48px] font-normal ibm leading-snug">
+        A Health<br />Companion for<br />Everyone
+      </h1>
+      <p class="text-[#1E1E1E] mt-4 text-[16px] md:text-[18px] leading-[28px]">
+        At Pranik AI, we’re building an intelligent, always-available healthcare assistant — a bridge between modern medical knowledge and the millions who lack access to timely care.
+      </p>
+    </div>
+    <div class="relative w-[500px] h-[300px]">
+      <div class="absolute top-0 left-0 w-[323px] h-[385px] rounded-full bg-gradient-to-br from-[#E0F8FA] to-white shadow-md flex items-center justify-center">
+        <img src="page3-1.png" alt="Healthcare provider smiling" class="w-[220px]">
       </div>
-      <div class="relative w-[500px] h-[300px]">
-        <div class="absolute top-0 left-0 w-[323px] h-[385px] rounded-full bg-gradient-to-br from-[#E0F8FA] to-white shadow-md flex items-center justify-center">
-          <img src="page3-1.png" alt="Nurse" class="w-[220px]">
-        </div>
-        <div class="absolute top-[20px] left-[225px] w-[323px] h-[385px] rounded-full bg-gradient-to-br from-[#E0F8FA] to-white shadow-md flex items-center justify-center z-10">
-          <img src="page3-2.jpg" alt="Checklist" class="w-[220px]">
-        </div>
+      <div class="absolute top-[20px] left-[225px] w-[323px] h-[385px] rounded-full bg-gradient-to-br from-[#E0F8FA] to-white shadow-md flex items-center justify-center z-10">
+        <img src="page3-2.jpg" alt="Medical checklist illustration" class="w-[220px]">
       </div>
     </div>
+  </div>
 
-    <div class="w-[1312px] p-[2px] rounded-[40px] bg-gradient-to-r from-[#46B3B9] to-[#9EFAFF]">
-      <div class="h-[325px] bg-[#E7FEFF] rounded-[38px] p-[64px] backdrop-blur-[4px]">
-        <div class="flex flex-col md:flex-row justify-between gap-[8px]">
-          <div class="flex flex-col gap-4 w-[533px]">
-            <div class="flex flex-col items-start gap-2">
-              <div class="text-3xl"> 🩷 </div>
-              <h3 class="text-[#0D6165] text-[32px] font-medium ibm leading-[100%] w-[506px]">
-                AI Doc
-              </h3>
-            </div>
-            <p class="text-[#1E1E1E] text-[24px] leading-[100%]">
-              Pranik will enable anyone to talk with an AI doctor to receive trusted medical advice — 24/7, 365 days a year.
-            </p>
+  <div class="w-full max-w-[1312px] p-[2px] rounded-[40px] bg-gradient-to-r from-[#46B3B9] to-[#9EFAFF]">
+    <div class="h-auto bg-[#E7FEFF] rounded-[38px] p-[64px] backdrop-blur-[4px]">
+      <div class="flex flex-col md:flex-row justify-between gap-[8px]">
+        <div class="flex flex-col gap-4 w-full md:w-[533px]">
+          <div class="flex flex-col items-start gap-2">
+            <div class="text-3xl"> 🩷 </div>
+            <h3 class="text-[#0D6165] text-[32px] font-medium ibm leading-[100%]">AI Doc</h3>
           </div>
+          <p class="text-[#1E1E1E] text-[24px] leading-[100%]">
+            Pranik will enable anyone to talk with an AI doctor to receive trusted medical advice — 24/7, 365 days a year.
+          </p>
+        </div>
 
-          <div class="flex flex-col gap-4 w-[533px]">
-            <div class="flex flex-col items-start gap-2">
-              <div class="text-3xl"> 🩷 </div>
-              <h3 class="text-[#0D6165] text-[32px] font-medium ibm leading-[100%] w-[506px]">
-                Primary Health Care
-              </h3>
-            </div>
-            <p class="text-[#1E1E1E] text-[24px] leading-[100%]">
-              Pranik AI is democratizing access to primary healthcare, empowering individuals, and bringing care available for everyone.
-            </p>
+        <div class="flex flex-col gap-4 w-full md:w-[533px]">
+          <div class="flex flex-col items-start gap-2">
+            <div class="text-3xl"> 🩷 </div>
+            <h3 class="text-[#0D6165] text-[32px] font-medium ibm leading-[100%]">Primary Health Care</h3>
           </div>
+          <p class="text-[#1E1E1E] text-[24px] leading-[100%]">
+            Pranik AI is democratizing access to primary healthcare, empowering individuals, and bringing care available for everyone.
+          </p>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-
-
-<!-- ✅ Newly Added Section: Join Pranik AI -->
-<section class="min-h-screen flex items-center justify-center p-10 bg-white overflow-hidden relative">
+<!-- Join Pranik AI Section -->
+<section id="apply-section" class="min-h-screen flex items-center justify-center p-10 bg-white overflow-hidden relative">
   <div class="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10">
-    <!-- Left Column -->
-    <div class="flex flex-col justify-between relative h-full">
-      <!-- Branding -->
-      <div>
-        <h1 class="text-[64px] justify-center ibm font-normal text-[#46B3B9] leading-[100%] z-10 relative">
-          Pranik AI
-        </h1>
-      </div>
-      <!-- Centered Logo Image -->
-      <div class="flex-grow flex items-end justify-center relative mt-8">
-        <img src="logo2.png" alt="Logo" class="w-[100%] max-w-[1400px]">
+    <div class="flex flex-col justify-between h-full">
+      <h1 class="text-[64px] ibm font-normal text-[#46B3B9] leading-[100%]">Pranik AI</h1>
+      <div class="flex-grow flex items-end justify-center mt-8">
+        <img src="logo2.png" alt="Full Pranik AI logo" class="w-full max-w-[1400px]">
       </div>
     </div>
 
-    <!-- Right Column -->
     <div class="flex flex-col gap-6 max-w-[533px]">
-      <!-- Headline -->
       <h2 class="text-[32px] font-medium ibm text-[#0D6165] leading-[100%]">
         We’re assembling a passionate, diverse team of engineers, medical experts, designers, and dreamers to democratize healthcare
       </h2>
-
-      <!-- Description -->
       <p class="text-[24px] font-normal text-[#1E1E1E] leading-[100%]">
         We’re still in stealth mode, but we’re moving fast. If you believe technology can close the healthcare gap, we want to hear from you.
       </p>
-
-      <!-- Points -->
       <div class="text-[32px] font-medium text-[#303030] leading-[100%] flex flex-col gap-4">
         <div>
           <p>• Work at the intersection of AI, healthcare, and social impact</p>
@@ -237,83 +217,58 @@
           <p>• Be part of an ethical, privacy-first AI initiative</p>
         </div>
       </div>
-
-      <!-- Apply Button -->
-      <button class="mt-4 w-fit px-6 py-2 rounded-full text-white bg-[#46B3B9] text-lg font-medium">
+      <a href="page6.html" class="mt-4 w-fit px-6 py-2 rounded-full text-white bg-[#46B3B9] text-lg font-medium hover:bg-[#3aa3a9] transition">
         Apply here
-      </button>
+      </a>
     </div>
   </div>
 </section>
 
-
-  <!-- Google Material Icons -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-
-<!-- Health Care Section -->
+<!-- Health Care Values Section -->
 <section class="py-16 px-6 bg-white flex flex-col items-center gap-16">
-
-  <!-- Top Row: Text + Overlapping Images -->
   <div class="flex flex-col md:flex-row items-center justify-center gap-12 max-w-[1140px] w-full">
-
-    <!-- Left: Heading -->
     <div class="max-w-[604px] text-[#46B3B9] text-[64px] font-['IBM Plex Sans'] leading-[100%] tracking-[0.01em] text-left">
       Let’s build with care,<br />
       for Health Care
     </div>
-
-    <!-- Right: Overlapping Circular Images -->
     <div class="relative w-[250px] h-[250px] min-w-[250px]">
-      <img src="heart.jpg" alt="Stethoscope Heart" class="absolute top-0 left-0 w-[200px] h-[200px] rounded-full object-cover z-10">
-      <img src="doc.png" alt="Phone with doctor" class="absolute bottom-0 right-0 w-[150px] h-[150px] rounded-full object-cover border-4 border-white z-20">
+      <img src="heart.jpg" alt="Stethoscope in shape of heart" class="absolute top-0 left-0 w-[200px] h-[200px] rounded-full object-cover z-10">
+      <img src="doc.png" alt="Doctor talking on phone" class="absolute bottom-0 right-0 w-[150px] h-[150px] rounded-full object-cover border-4 border-white z-20">
     </div>
-
   </div>
 
-  <!-- Feature Boxes -->
   <div class="w-full max-w-[1140px] bg-[#FFF3EC] rounded-[40px] py-10 px-6 flex flex-col md:flex-row justify-around gap-10 text-center">
-    
-    <!-- Privacy First -->
     <div class="flex flex-col items-center gap-2 max-w-[200px]">
       <span class="material-icons text-3xl text-[#0D6165]">security</span>
-      <h3 class="text-[#0D6165] text-[32px] font-medium font-['IBM Plex Sans'] leading-[100%]">Privacy First</h3>
+      <h3 class="text-[#0D6165] text-[32px] font-medium leading-[100%]">Privacy First</h3>
       <p class="text-[#1E1E1E] text-[16px]">We’re committed to protecting every user’s data.</p>
     </div>
-
-    <!-- Inclusive -->
     <div class="flex flex-col items-center gap-2 max-w-[200px]">
       <span class="material-icons text-3xl text-[#0D6165]">language</span>
-      <h3 class="text-[#0D6165] text-[32px] font-medium font-['IBM Plex Sans'] leading-[100%]">Inclusive</h3>
+      <h3 class="text-[#0D6165] text-[32px] font-medium leading-[100%]">Inclusive</h3>
       <p class="text-[#1E1E1E] text-[16px]">Healthcare in every language, reaches every community.</p>
     </div>
-
-    <!-- Ethical AI -->
     <div class="flex flex-col items-center gap-2 max-w-[200px]">
       <span class="material-icons text-3xl text-[#0D6165]">verified_user</span>
-      <h3 class="text-[#0D6165] text-[32px] font-medium font-['IBM Plex Sans'] leading-[100%]">Ethical AI</h3>
+      <h3 class="text-[#0D6165] text-[32px] font-medium leading-[100%]">Ethical AI</h3>
       <p class="text-[#1E1E1E] text-[16px]">Our AI will be built responsibly, under guidance from experts.</p>
     </div>
-
   </div>
 </section>
 
 <!-- Footer -->
 <footer class="bg-[#E4FCFE] py-8 font-lato">
   <div class="max-w-7xl mx-auto px-6 border-t border-[#D9F4F7] pt-6 flex flex-col md:flex-row justify-between items-center">
-    
-    <!-- Left: Logo + Pranik AI + Tagline -->
     <div class="flex flex-col items-start">
       <div class="flex items-center gap-2">
-        <img src="logo2.png" alt="Pranik AI Logo" class="h-9 w-auto"> <!-- 36px height -->
+        <img src="logo2.png" alt="Pranik AI Logo in footer" class="h-9 w-auto">
         <span class="text-[30px] font-normal leading-[100%] tracking-[-0.04em] text-[#0D6165]">Pranik AI</span>
       </div>
       <p class="text-xs text-[#1E1E1E] mt-1">© 2025 Pranik AI | Currently in stealth mode</p>
     </div>
-
-    <!-- Right: CTA -->
     <div class="flex items-center gap-4 mt-6 md:mt-0">
       <p class="italic text-base text-[#0D6165] whitespace-nowrap">Ready to create impact?</p>
-      <a href="#" class="bg-[#2DA4AB] text-white text-sm px-5 py-2 rounded-full hover:bg-[#24959b] transition">
+      <a href="#apply-section" class="bg-[#2DA4AB] text-white text-sm px-5 py-2 rounded-full hover:bg-[#24959b] transition">
         Join the team
       </a>
     </div>
